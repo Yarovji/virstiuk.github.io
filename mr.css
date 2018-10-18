@@ -1,0 +1,165 @@
+.resume{
+	border: 10px solid #e0e0d1;
+	width: 700px;
+	height: 900px;
+	margin: 20px;
+    box-shadow: 5px 5px 5px #999966;
+    font-family: arial;
+    font-size: 95%;
+}
+
+/*left DIV!!!*/
+
+#left {
+	width: 235px;
+	height: 890px;
+	float: left;
+	background-color: #e0e0d1;
+	margin-top: 5px;
+	margin-left: 5px;
+	margin-bottom: 5px;
+}
+
+#iam {
+	width: 235px;
+	height: 218.01px;
+	margin-bottom: -5px;
+}
+
+.link {
+	width: 20px;
+}
+
+#tel{
+	background-color: #666699;
+}
+
+#tel>p {
+	text-align: center;
+	margin-top: 0;
+	padding: 8px;
+	margin-bottom: -5px;
+}
+
+#net{
+	background-color: #8585ad;
+}
+
+#net>p {
+	text-align: center;
+	margin-top: 0;
+	padding: 8px;
+	margin-bottom: -5px;
+}
+
+#mail{
+	background-color: #a3a3c2;
+}
+
+#mail>p {
+	text-align: center;
+	margin-top: 0;
+	padding: 8px;
+}
+
+#about {
+	padding-left: 5px;
+	padding-right: 10px;
+}
+
+/* FOR RANGE!!!*/
+
+#rangeHTML{
+    -webkit-appearance: none;
+    width:150px;
+    height:10px;
+    border-radius:18px;
+    background:-webkit-linear-gradient(left ,#8870FF 0%,#8870FF 86%,#fff 86%, #fff 100%);
+}
+
+#rangeCSS{
+    -webkit-appearance: none;
+    width:150px;
+    height:10px;
+    border-radius:18px;
+    background:-webkit-linear-gradient(left ,#8870FF 0%,#8870FF 76%,#fff 76%, #fff 100%);
+}
+
+#rangeJS{
+    -webkit-appearance: none;
+    width:150px;
+    height:10px;
+    border-radius:18px;
+    background:-webkit-linear-gradient(left ,#8870FF 0%,#8870FF 72%,#fff 72%, #fff 100%);
+}
+
+#rangePHP{
+    -webkit-appearance: none;
+    width:150px;
+    height:10px;
+    border-radius:18px;
+    background:-webkit-linear-gradient(left ,#8870FF 0%,#8870FF 8%,#fff 8%, #fff 100%);
+}
+
+#rangeJAVA{
+    -webkit-appearance: none;
+    width:150px;
+    height:10px;
+    border-radius:18px;
+    background:-webkit-linear-gradient(left ,#8870FF 0%,#8870FF 4%,#fff 4%, #fff 100%);
+}
+
+input[type=range]::-webkit-slider-thumb {
+	-webkit-appearance: none;
+}
+input {
+	float: right;
+}
+/*right DIV!!!*/
+
+#right{
+	width: 430px;
+	height: 870px;
+	float: left;
+	background-color: white;
+}
+
+h1 {
+	color: #8585ad;
+}
+
+header {
+	margin: 15px;
+}
+
+.year {
+	width: 160px;
+	text-align: center;
+}
+
+#education {
+   height: 140px;
+}
+
+#work {
+   height: 210px;
+}
+
+.h3right {
+	background-color: #e0e0d1;
+	width: 460px;
+	text-align: center;
+}
+
+footer>figure{
+	float: left;
+	margin: 3px;
+	padding: 5px;
+}
+figcaption {
+	text-align: center;
+}
+
+.icon_hobbies {
+	width: 70px;
+}
